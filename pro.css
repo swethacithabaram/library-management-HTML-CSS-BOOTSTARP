@@ -115,3 +115,72 @@
     margin-top: 20px;
     font-weight: 500;
 }
+@media (max-width: 480px) {
+  .container {
+    padding: 20px;
+  }
+
+  .profile-box {
+    padding: 25px 30px;
+    width: 90%;
+  }
+
+  .menu-icon,
+  .setting-icon {
+    width: 20px;
+    top: 20px;
+  }
+
+  .profile-icon {
+    width: 100px;
+    margin-top: 20px;
+  }
+
+  .profile-box h3 {
+    font-size: 24px;
+  }
+
+  .social-media img {
+    width: 25px;
+    margin: 15px 5px;
+  }
+
+  .profile-box button {
+    padding: 12px 40px;
+    font-size: 14px;
+  }
+
+  .profile-button {
+    padding: 40px 0;
+    margin: 10px -50px -30px -50px;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .profile-box {
+    padding: 35px 60px;
+    width: 80%;
+  }
+
+  .profile-icon {
+    width: 130px;
+  }
+
+  .profile-box h3 {
+    font-size: 28px;
+  }
+
+  .profile-box button {
+    padding: 14px 50px;
+    font-size: 15px;
+  }
+}
+@media (min-width: 769px) {
+  .profile-box {
+    padding: 40px 90px;
+    width: 400px;
+  }
+
+  .profile-box h3 {
+    font-size: 32px;
+  }
+}
