@@ -37,3 +37,54 @@ a:active{
 .table-hover{
     background-color:brown;
 }
+@media (max-width: 480px) {
+  body {
+    background-color: brown;
+  }
+
+  .con {
+    width: 95%;
+    margin: 20px auto;
+    padding: 8px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  .table-striped th,
+  .table-striped td {
+    font-size: 12px;
+    padding: 6px;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .con {
+    width: 90%;
+    margin: 30px auto;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+  .table-striped th,
+  .table-striped td {
+    font-size: 14px;
+  }
+}
+@media (min-width: 769px) {
+  .con {
+    width: 1000px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  .table-striped th,
+  .table-striped td {
+    font-size: 16px;
+  }
+}
